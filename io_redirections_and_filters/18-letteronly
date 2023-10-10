@@ -1,2 +1,3 @@
 #!/bin/bash
 grep "6[A-Za-z]" /etc/ssh/sshd_config
+grep -i"6[a-z]" 
