@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -n "shtbeolhc" | tr "5h2b3" "01234" | tr "olc" "567" | tr "s" "9" | tr -d "5hcl"
+printf "%o\n" $(( 5#$( echo $WATER | tr water 01234 )+5#$( echo $STIR | tr stir. 01234  )  )) | tr 01234567 bestchol
