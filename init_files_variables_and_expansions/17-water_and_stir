@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%x\n" "$((0x$WATER + 0x$STIR))"
+printf "%x\n" "$((0x$STIR + 0x$WATER))"
