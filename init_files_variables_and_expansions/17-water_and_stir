@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -n "b"
+echo "shtbeolhc" | tr 'water' '01234' | tr 'stir' '56789' | tr -d '.'
